@@ -1,8 +1,10 @@
 def square_array(array)
   # your code here
   output = []
-  for n in array do
-    output.push(n * n)
+  n = 0
+  while array[n] do
+    output.push(array[n])
+    n += 1
   end
   output
 end
